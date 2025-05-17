@@ -233,6 +233,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8450-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
     vendor/xiaomi/sm8450-common/proprietary/vendor/etc/init/vendor.dolbyvision.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolbyvision.media.c2@1.0-service.rc \
+    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/media_codecs_ukee_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_ukee_vendor.xml \
+    vendor/xiaomi/sm8450-common/proprietary/vendor/etc/media_codecs_with_dolby_taro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_with_dolby_taro.xml \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
